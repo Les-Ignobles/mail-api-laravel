@@ -1,10 +1,19 @@
 <?php
 
+namespace LesIgnobles\MailApiLaravel\Adapters\Sendinblue;
+
+
+use Exception;
 use GuzzleHttp\Client;
+use LesIgnobles\MailApiLaravel\Dto\MailTemplateOption;
+use LesIgnobles\MailApiLaravel\Dto\MailTo;
+use LesIgnobles\MailApiLaravel\Services\MailService;
+use LesIgnobles\MailApiLaravel\Utils\Constants;
 use SendinBlue\Client\Api\TransactionalEmailsApi;
 use SendinBlue\Client\Configuration;
 use SendinBlue\Client\Model\SendSmtpEmail;
 use SendinBlue\Client\Model\SendSmtpEmailTo;
+
 
 /**
  * Author: Theo Champion
@@ -14,7 +23,7 @@ use SendinBlue\Client\Model\SendSmtpEmailTo;
 class SendinblueServiceMailAdapter extends MailService
 {
     /**
-     * @throws Exception
+     * @throws \Exception
      */
     public function sendMailTemplate(MailTemplateOption $options): void
     {

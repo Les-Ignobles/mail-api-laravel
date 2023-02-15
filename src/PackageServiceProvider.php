@@ -1,6 +1,9 @@
 <?php
 
+namespace LesIgnobles\MailApiLaravel;
+
 use Illuminate\Support\ServiceProvider;
+use LesIgnobles\MailApiLaravel\Utils\Constants;
 
 /**
  * Author: Theo Champion

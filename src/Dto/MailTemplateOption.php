@@ -5,6 +5,7 @@
  * Time: 15:28
  */
 
+namespace LesIgnobles\MailApiLaravel\Dto;
 
 class MailTemplateOption
 {
@@ -12,7 +13,7 @@ class MailTemplateOption
      * MailTemplateOption constructor.
      *
      * @param string      $from
-     * @param MailTo[]       $to
+     * @param MailTo[]    $to
      * @param string|null $templateId
      * @param array       $params
      */

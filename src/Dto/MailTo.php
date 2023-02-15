@@ -5,6 +5,7 @@
  * Time: 15:47
  */
 
+namespace LesIgnobles\MailApiLaravel\Dto;
 
 class MailTo
 {

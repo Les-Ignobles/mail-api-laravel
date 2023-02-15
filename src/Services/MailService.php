@@ -5,6 +5,9 @@
  * Time: 15:26
  */
 
+namespace LesIgnobles\MailApiLaravel\Services;
+
+use LesIgnobles\MailApiLaravel\Dto\MailTemplateOption;
 
 abstract class MailService
 {

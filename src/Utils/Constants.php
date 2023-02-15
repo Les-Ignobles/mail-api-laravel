@@ -5,6 +5,7 @@
  * Time: 15:42
  */
 
+namespace LesIgnobles\MailApiLaravel\Utils;
 
 class Constants
 {
