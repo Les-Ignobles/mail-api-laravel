@@ -1,6 +1,7 @@
 {
     "name": "lesignobles/mail-api-laravel",
     "description": "Package to send email",
+    "license": ["MIT"],
     "autoload": {
         "psr-4": {
             "LesIgnobles\\MailApiLaravel\\": "src/"
