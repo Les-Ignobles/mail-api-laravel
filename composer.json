@@ -1,0 +1,21 @@
+{
+    "name": "lesignobles/mail-api-laravel",
+    "description": "Package to send email",
+    "autoload": {
+        "psr-4": {
+            "LesIgnobles\\MailApiLaravel\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Théo",
+            "email": "theo@lesignobles.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^8.0"
+    },
+    "require": {
+        "sendinblue/api-v3-sdk": "^8.4"
+    }
+}
