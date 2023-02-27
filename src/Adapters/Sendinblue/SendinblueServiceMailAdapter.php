@@ -35,7 +35,7 @@ class SendinblueServiceMailAdapter extends MailService
             ]);
         }, $options->to);
         $sendSmtpEmail->setTo($to);
-        $sendSmtpEmail->setTemplateId($options->templateId);
+        $sendSmtpEmail->setTemplateId(+$options->templateId);
         $sendSmtpEmail->setParams((object)$options->params);
 
         $apiInstance = $this->getTransactionalApiInstance();
